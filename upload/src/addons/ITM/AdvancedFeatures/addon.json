@@ -1,0 +1,19 @@
+{
+    "legacy_addon_id": "",
+    "title": "[ITM] Advanced Features",
+    "description": "Some advanced features for your XenForo.",
+    "version_id": 1000010,
+    "version_string": "1.0.0 Alpha",
+    "dev": "XenTutorials",
+    "dev_url": "https://www.xentutorials.com",
+    "faq_url": "https://github.com/McAtze/ITM-AdvancedFeatures/wiki",
+    "support_url": "https://github.com/McAtze/ITM-AdvancedFeatures/issues",
+    "extra_urls": [],
+    "require": {
+        "XF": [
+            2010170,
+            "XenForo 2.1.1"
+        ]
+    },
+    "icon": "fal fa-cubes"
+}

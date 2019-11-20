@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="thread_view" modification_key="InsertThreadButtonsBottom" description="Insert thread buttons at buttom" execution_order="13" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:macro name="thread_status" arg-thread="{$thread}" arg-wrapperClass="block-outer block-outer--after" />]]></find>
+    <replace><![CDATA[$0
+
+	<xf:macro template="itm_af_threadButtons_macros" name="bottom" />]]></replace>
+  </modification>
+  <modification type="public" template="thread_view" modification_key="InsertThreadButtonsTop" description="Insert thread buttons on top" execution_order="12" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:h1>{{ prefix('thread', $thread) }}{$thread.title}</xf:h1>]]></find>
+    <replace><![CDATA[$0
+
+<xf:macro template="itm_af_threadButtons_macros" name="top" />]]></replace>
+  </modification>
+</template_modifications>
