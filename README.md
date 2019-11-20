@@ -3,4 +3,4 @@ Some advanced features for your XenForo.
 
 ### Thread Buttons
 
-![ThreadButtons](https://maxcdn.it-maku.com/af/threadButtons.png)
+![ThreadButtons](https://github.com/McAtze/ITM-AdvancedFeatures/blob/master/Screenshots/threadButtons.png)
