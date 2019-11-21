@@ -12,15 +12,13 @@
 </xf:macro>
 
 <xf:macro name="bottom">
-	<div class="block-outer">
-		<div class="block-outer-opposite">
-			<xf:button href="#top" data-xf-click="scroll-to">
-				<xf:fa icon="fa-arrow-up" /><span class="u-srOnly">{{ phrase('top') }}</span>
-			</xf:button>
-			<xf:button href="{{ link('whats-new') }}" class="button--cta" icon="bolt">
-				{{ phrase('whats_new') }}
-			</xf:button>
-		</div>
+	<div class="block-outer-opposite">
+		<xf:button href="#top" data-xf-click="scroll-to">
+			<xf:fa icon="fa-arrow-up" /><span class="u-srOnly">{{ phrase('top') }}</span>
+		</xf:button>
+		<xf:button href="{{ link('whats-new') }}" class="button--cta" icon="bolt">
+			{{ phrase('whats_new') }}
+		</xf:button>
 	</div>
 </xf:macro>]]></template>
 </templates>

@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style_properties/>
+<style_properties>
+  <style_property property_name="itmAFthreadButtons" group_name="button" title="Showing thread buttons" description="Choose the position of the buttons in thread view." property_type="value" value_type="radio" value_group="ThreadButtons" display_order="100">
+    <value_parameters>none={{ phrase('none') }}
+top={{ phrase('top') }}
+bottom={{ phrase('bottom') }}
+all={{ phrase('all') }}</value_parameters>
+    <value>"none"</value>
+  </style_property>
+  <style_property property_name="itmAFthreadButtonsLink" group_name="button" title="Select the &quot;What's new&quot;-Link" property_type="value" value_type="radio" value_group="ThreadButtons" display_order="200">
+    <value_parameters>={{ phrase('whats_new') }}
+new-posts={{ phrase('new_posts') }}
+profile-posts={{ phrase('new_profile_posts') }}
+latest-activity={{ phrase('latest_activity') }}</value_parameters>
+    <value>""</value>
+  </style_property>
+  <style_property property_name="itmAFthreadButtonsStyle" group_name="button" title="Choose the button style" property_type="value" value_type="radio" value_group="ThreadButtons" display_order="300">
+    <value_parameters>default={{ phrase('style_prop.buttonDefault') }}
+primary={{ phrase('style_prop.buttonPrimary') }}
+cta={{ phrase('style_prop.buttonCta') }}</value_parameters>
+    <value>"default"</value>
+  </style_property>
+</style_properties>

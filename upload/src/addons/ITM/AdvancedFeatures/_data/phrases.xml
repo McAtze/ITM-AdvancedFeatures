@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<phrases/>
+<phrases>
+  <phrase title="style_prop.itmAFthreadButtons" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Showing thread buttons]]></phrase>
+  <phrase title="style_prop.itmAFthreadButtonsLink" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Select the "What's new"-Link]]></phrase>
+  <phrase title="style_prop.itmAFthreadButtonsStyle" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Choose the button style]]></phrase>
+  <phrase title="style_prop_desc.itmAFthreadButtons" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Choose the position of the buttons in thread view.]]></phrase>
+  <phrase title="style_prop_desc.itmAFthreadButtonsLink" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[]]></phrase>
+  <phrase title="style_prop_desc.itmAFthreadButtonsStyle" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[]]></phrase>
+</phrases>
