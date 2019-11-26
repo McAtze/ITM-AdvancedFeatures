@@ -1,5 +1,5 @@
 {
-    "src/addons/ITM/AdvancedFeatures/addon.json": "fb2ead19d4b18c3d345684177dfb276810b01ee52790586fdc567acf09a31adb",
+    "src/addons/ITM/AdvancedFeatures/addon.json": "47b8ce105e76ff1fd399d5f2d0da27cfb4ecf34318ab89d25210a7df2ac876d5",
     "src/addons/ITM/AdvancedFeatures/Setup.php": "c7fd32c210d02d0e266a3f70b5139666fdffba496762c6d8c2d647b631398513",
     "src/addons/ITM/AdvancedFeatures/_data/admin_navigation.xml": "064ec797484ac00d5ee37367b50b06846d11f480d00550997712707f8fdac8c0",
     "src/addons/ITM/AdvancedFeatures/_data/admin_permission.xml": "ec6fb97cebf0bceb24f1ed1d5778c1db54eeb7535fbb3e31d824840e7aa9ff87",
@@ -23,7 +23,7 @@
     "src/addons/ITM/AdvancedFeatures/_data/routes.xml": "550fa64f9feedf137dd877b38c2684f94474619d2d83890dbb717a91b50da8f5",
     "src/addons/ITM/AdvancedFeatures/_data/style_properties.xml": "32b3e4e47e1bebbfa55d430dd7567140b0db80eb5c226b4739a68a177fc06348",
     "src/addons/ITM/AdvancedFeatures/_data/style_property_groups.xml": "68e1879cb3846c42d978487aa8d5145ff3335fc39e58016878824d5cf3fd684c",
-    "src/addons/ITM/AdvancedFeatures/_data/templates.xml": "4ec38c0dcad05a12f9454dbcef2f9ca87bcbe3d93f7ce52b25445343a66d3c20",
+    "src/addons/ITM/AdvancedFeatures/_data/templates.xml": "c6f7c95b3b7479dce7c4d0b7e90837103b2e4d540978b26e673dbf075338de53",
     "src/addons/ITM/AdvancedFeatures/_data/template_modifications.xml": "66ef80da349894e3e4c6b6cedbddf23be1af547e5ca7742302f053b2d6421f1b",
     "src/addons/ITM/AdvancedFeatures/_data/widget_definitions.xml": "37e46965256430f24004c2e7f08ba08f9b0d1cbcc4d70e84b3f4e3ffb713e64b",
     "src/addons/ITM/AdvancedFeatures/_data/widget_positions.xml": "a29cee66134f6bc5d75ed9df1eef21096c24401915c5b5c774389c3d7bb2d5b3"

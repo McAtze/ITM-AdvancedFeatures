@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates>
-  <template type="public" title="itm_af_threadButtons_macros" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[<xf:macro name="top">
+  <template type="public" title="itm_af_threadButtons_macros" version_id="1010030" version_string="1.1.0 Beta"><![CDATA[<xf:macro name="top">
 	<xf:pageaction>
 		<xf:button href="#footer" data-xf-click="scroll-to">
 			<xf:fa icon="fa-arrow-down" /><span class="u-srOnly">{{ phrase('bottom') }}</span>
 		</xf:button>
-		<xf:button href="{{ link('whats-new') }}" class="button--cta" icon="bolt">
-			{{ phrase('whats_new') }}
-		</xf:button>
+		<xf:if is="property('itmAFthreadButtonsLink') == 'new-posts'">
+			<xf:button href="{{ link('whats-new/posts') }}" class="button--{{ property('itmAFthreadButtonsStyle') }}" icon="bolt">
+				{{ phrase('new_posts') }}
+			</xf:button>
+		<xf:elseif is="property('itmAFthreadButtonsLink') == 'profile-posts'" />
+			<xf:button href="{{ link('whats-new/profile-posts') }}" class="button--{{ property('itmAFthreadButtonsStyle') }}" icon="bolt">
+				{{ phrase('new_profile_posts') }}
+			</xf:button>
+		<xf:elseif is="property('itmAFthreadButtonsLink') == 'latest-activity'" />
+			<xf:button href="{{ link('whats-new/latest-activity') }}" class="button--{{ property('itmAFthreadButtonsStyle') }}" icon="bolt">
+				{{ phrase('latest_activity') }}
+			</xf:button>
+		<xf:else />
+			<xf:button href="{{ link('whats-new') }}" class="button--{{ property('itmAFthreadButtonsStyle') }}" icon="bolt">
+				{{ phrase('whats_new') }}
+			</xf:button>
+		</xf:if>
 	</xf:pageaction>
 </xf:macro>
 
@@ -16,9 +30,23 @@
 		<xf:button href="#top" data-xf-click="scroll-to">
 			<xf:fa icon="fa-arrow-up" /><span class="u-srOnly">{{ phrase('top') }}</span>
 		</xf:button>
-		<xf:button href="{{ link('whats-new') }}" class="button--cta" icon="bolt">
-			{{ phrase('whats_new') }}
-		</xf:button>
+		<xf:if is="property('itmAFthreadButtonsLink') == 'new-posts'">
+			<xf:button href="{{ link('whats-new/posts') }}" class="button--{{ property('itmAFthreadButtonsStyle') }}" icon="bolt">
+				{{ phrase('new_posts') }}
+			</xf:button>
+		<xf:elseif is="property('itmAFthreadButtonsLink') == 'profile-posts'" />
+			<xf:button href="{{ link('whats-new/profile-posts') }}" class="button--{{ property('itmAFthreadButtonsStyle') }}" icon="bolt">
+				{{ phrase('new_profile_posts') }}
+			</xf:button>
+		<xf:elseif is="property('itmAFthreadButtonsLink') == 'latest-activity'" />
+			<xf:button href="{{ link('whats-new/latest-activity') }}" class="button--{{ property('itmAFthreadButtonsStyle') }}" icon="bolt">
+				{{ phrase('latest_activity') }}
+			</xf:button>
+		<xf:else />
+			<xf:button href="{{ link('whats-new') }}" class="button--{{ property('itmAFthreadButtonsStyle') }}" icon="bolt">
+				{{ phrase('whats_new') }}
+			</xf:button>
+		</xf:if>
 	</div>
 </xf:macro>]]></template>
 </templates>
